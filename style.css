@@ -1,0 +1,63 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;  /* Sets the font style for the whole page */
+    margin: 0;  /* Removes default margins from the body */
+    padding: 0;  /* Removes default padding from the body */
+    background-color: #f4f4f4;  /* Sets the background color to a light gray */
+    color: #333;  /* Sets the text color to a dark gray */
+}
+
+header {
+    background-color: #0073e6;  /* Sets the background color of the header to a blue shade */
+    padding: 1rem;  /* Adds padding (space inside) the header for better spacing */
+}
+
+header nav ul {
+    list-style-type: none;  /* Removes bullet points from the list (navigation menu) */
+    display: flex;  /* Makes the list items (menu) align horizontally in a row */
+    justify-content: center;  /* Centers the list items within the header */
+}
+
+header nav ul li {
+    margin: 0 15px;  /* Adds space (15px) between each list item (menu item) */
+}
+
+header nav ul li a {
+    color: white;  /* Sets the text color of the links to white */
+    text-decoration: none;  /* Removes the underline from the links */
+    font-weight: bold;  /* Makes the text bold */
+}
+
+section {
+    padding: 2rem;  /* Adds padding inside each section for better spacing */
+    text-align: center;  /* Centers the content inside each section */
+}
+
+#about img {
+    width: 150px;  /* Sets the image width to 150px */
+    border-radius: 50%;  /* Makes the image circular by rounding the corners */
+    margin-bottom: 1rem;  /* Adds space below the image */
+}
+
+.project-list {
+    display: flex;  /* Aligns the project cards in a row */
+    justify-content: space-around;  /* Spreads the project cards evenly */
+    flex-wrap: wrap;  /* Allows the project cards to wrap onto a new line if needed */
+}
+
+.project-card {
+    background-color: #fff;  /* Sets the background color of each project card to white */
+    padding: 1rem;  /* Adds padding inside the card */
+    margin: 1rem;  /* Adds margin (space) outside the card */
+    border-radius: 8px;  /* Rounds the corners of the card */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow around the card */
+    width: 300px;  /* Sets a fixed width for the project card */
+    text-align: left;  /* Aligns the text inside the card to the left */
+}
+
+footer {
+    background-color: #0073e6;  /* Sets the background color of the footer to the same blue */
+    color: white;  /* Changes the text color in the footer to white */
+    padding: 1rem;  /* Adds padding inside the footer */
+    text-align: center;  /* Centers the content inside the footer */
+}
